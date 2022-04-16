@@ -31,3 +31,9 @@ R: Quando criamos um repositório, ele inicializa automaticamente com o branch m
 10.	Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo? 
 R: Caso você queira atualizar seu diretório de local para o mais recente do repositório remoto, o simples comando git pull pode ser usado. Para mesclar outro branch no atualmente ativo, use: git merge feature_n.
 
+11.	Pensando em Bases de dados, sendo elas, Relacionais (SQL) e Não Relacionais (NoSQL). Quais alternativas abaixo estão corretas? 
+a.	MySQL = MongoDB 
+b.	PostgreSQL = Redis 
+c.	Oracle = CouchDB  CORRETO
+d.	Todas as alternativas estão corretas. 
+
