@@ -37,3 +37,56 @@ b.	PostgreSQL = Redis
 c.	Oracle = CouchDB  CORRETO
 d.	Todas as alternativas estão corretas. 
 
+12.	O que é MongoDB? 
+R: O MongoDB é um banco de dados orientado a documentos que possui código aberto e projetado para armazenar uma grande escala de dados, além de autorizar que você trabalhe de forma eficiente com grandes volumes. Eles são compilados em um banco de dados NoSQL (não apenas SQL) porque os dados não são armazenados e recuperados do MongoDB como uma ordem (tabela).
+  
+13.	O que é o MySQL? 
+R: MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) de código aberto que é comumente usado em aplicativos da Web devido à sua velocidade, flexibilidade e confiabilidade. O MySQL usa SQL, ou Structured Query Language, para acessar e processar dados contidos em um banco de dados.
+
+14.	Qual a diferença entre git e github? 
+R: Git é um software VCS local que permite aos desenvolvedores salvar instantâneos de seus projetos ao longo do tempo. Usualmente é melhor para uso individual. O GitHub é uma plataforma baseada na web que integra os recursos de controle de versão do gitHub para que possam ser usados de forma colaborativa. Também inclui recursos de gerenciamento de projetos e equipes, bem como oportunidades de rede e codificação social.
+
+15.	Quais os dois verbos http que podemos utiizar para realizar um update? Explique a diferença entre eles. 
+R: PUT >> Requisita que um recurso seja "guardado" na URI fornecida. Se o recurso já existir, ele deve ser atualizado. Se não existir, pode ser criado. PATCH >> Serve para atualizar partes de um recurso, e não o recurso todo.
+
+16.	Qual o status code que pode ser usado na criação de um novo usuário? 
+R: 201 Created >> A requisição foi bem sucedida e um novo recurso foi criado como resultado. Esta é uma resposta típica enviada após uma requisição POST.
+
+17.	Quais são os três status code que modem ser utilizados para realizar o delete? 
+R: códigos de status HTTP de 300, 400 e 500 níveis nas seções Excluídos, Erros ou Válidos com avisos, dependendo do tipo de código.
+
+18.	Qual a extensão ".xxx" contêm as definições da tabela? 
+a.	Commands.myi 
+b.	Commands.frm 
+c.	Commands.myd  CORRETO 
+d.	{mysqlDirectory}/data 
+
+19.	A pasta "C:\ProgramData" é uma pasta oculta, portanto, você deve digitá-la no endereço do Windows Explorer para chegar lá.  
+Nessa pasta de dados, quais opções apresentam o caminho correto para acessar os bancos de dados que foram denominados? 
+a.	/{database_name_folder}/{database_tables_and_files}. 
+b.	C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.frm 
+c.	C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\mytable.ibd CORRETO
+d.	C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\data-recovery 
+
+20.	Qual a extensão ".xxx" que contêm os dados da tabela? 
+R: A extensão responsável pelos dados em tabela é a .myd
+
+21.	Qual comando usa-se para extração de arquivos em MongoDB durante a instalação? 
+R: O comando usado para extração de arquivos em MongoDB é: tar (usado principalmente em Linux e Mac), no Windows existe o .next.
+
+22.	Para que usamos o MongoDB? 
+R: MongoDB é um servidor de banco de dados de armazenamento. Mas o processo é flexível. mais independente Ele contém elementos com identificadores exclusivos. Em resumo, o ambiente fornece um servidor que você pode começar a usar o MongoDB e depois criar vários bancos de dados. Os elementos não precisam estar relacionados entre si e a hierarquia de elementos é completamente flexível. Graças aos bancos de dados NoSQL, as informações são armazenadas em coleções e documentos. As cobranças são subseções do banco geral, independentes.
+
+23.	Exemplifique para que serve os metódos http 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)! 
+R: A linha inicial de uma resposta HTTP indica ao cliente se sua requisição foi bem sucedida ou não. Essa situação é fornecida através de um código de retorno (Status-Code) e uma frase explicativa (Reason-Phrase). O código de status é formado por três dígitos e o primeiro dígito representa a classe que pertence classificada em cinco tipos:
+
+1xx: Informational (Informação) – utilizada para enviar informações para o cliente de que sua requisição foi recebida e está sendo processada;
+2xx: Success (Sucesso) – indica que a requisição do cliente foi bem sucedida;
+3xx: Redirection (Redirecionamento) – informa a ação adicional que deve ser tomada para completar a requisição;
+4xx: Client Error (Erro no cliente) – avisa que o cliente fez uma requisição que não pode ser atendida;
+5xx: Server Error (Erro no servidor) – ocorreu um erro no servidor ao cumprir uma requisição válida.
+
+24.	Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @node.js_mar22 e quais suas expectativas a partir de agora: 
+R: A experiência que estou sendo proporcionado pela bolsa em node.js, com certeza e a melhor dentro do aspecto educacional, comunidade de professores sempre atenciosos, a poucos meses atrás nem imaginava um dia vê cursos e estar 50% inserido em uma empresa multinacional (com o porte gigantesco que a UOL e Compass possuem), agradeço primeiramente a todos os instrutores e Scrum Masters pela compreensão com todos os bolsistas. OBRIGADO!!!!!
+
+
